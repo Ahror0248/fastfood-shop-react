@@ -1,0 +1,29 @@
+.menu-con {
+    display: flex;
+    flex: 5;
+    border: 1px solid blue;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    display: flex;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.list-item {
+    width: 400px;
+    height: 400px;
+    border: 1px solid coral;
+    margin: 20px;
+    box-shadow: 0 0 12px black;
+}
+
+img {
+    width: 100%;
+    height: 70%;
+}
